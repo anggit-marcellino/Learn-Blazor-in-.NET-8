@@ -5,10 +5,10 @@ namespace IMS.Plugins.InMemory
 {
     public class InventoryRepository : IInventoryRepository
     {
-        private List<Inventory> inventory;
+        private List<Inventory> inventories;
         public InventoryRepository()
         {
-            inventory = new List<Inventory>()
+			inventories = new List<Inventory>()
             {
                 new Inventory() { InventoryId = 1, InventoryName = "Bike Seat", Quantity = 10, Price = 2 },
                 new Inventory() { InventoryId = 2, InventoryName = "Bike Body", Quantity = 10, Price = 15 },
@@ -17,13 +17,27 @@ namespace IMS.Plugins.InMemory
             };
         }
 
-        public async Task<IEnumerable<Inventory>> GetInventoryByNameAsync(string name)
+		public Task AddInventoryAsync(Inventory inventory)
+		{
+            if (inventories.Any(x => x.InventoryName.Equals(inventory.InventoryName, StringComparison.OrdinalIgnoreCase)))
+            {
+                return Task.CompletedTask;
+            }
+            var maxId = inventories.Max(x => x.InventoryId);
+            inventory.InventoryId = maxId + 1;
+
+            inventories.Add(inventory); 
+            
+            return Task.CompletedTask;
+		}
+
+		public async Task<IEnumerable<Inventory>> GetInventoryByNameAsync(string name)
         {
             if (string.IsNullOrWhiteSpace(name))
             {
-                return await Task.FromResult(inventory);
+                return await Task.FromResult(inventories);
             }
-            return inventory.Where(x => x.InventoryName.Contains(x.InventoryName, StringComparison.OrdinalIgnoreCase));
+            return inventories.Where(x => x.InventoryName.Contains(x.InventoryName, StringComparison.OrdinalIgnoreCase));
         }
     }
 }
