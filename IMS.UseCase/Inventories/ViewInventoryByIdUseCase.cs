@@ -4,7 +4,7 @@ using IMS.UseCase.PluginInterface;
 
 namespace IMS.UseCase.Inventories
 {
-    public class ViewInventoryByIdUseCase : IViewInventoryByIdUseCase
+	public class ViewInventoryByIdUseCase : IViewInventoryByIdUseCase
 	{
 		private readonly IInventoryRepository inventoryRepository;
 

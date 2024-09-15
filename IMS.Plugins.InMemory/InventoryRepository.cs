@@ -36,16 +36,17 @@ namespace IMS.Plugins.InMemory
             return await Task.FromResult(inventories.First(x => x.InventoryId == inventoryId));
 		}
 
-		public async Task<IEnumerable<Inventory>> GetInventoryByNameAsync(string name)
+        public async Task<IEnumerable<Inventory>> GetInventoryByNameAsync(string name)
         {
             if (string.IsNullOrWhiteSpace(name))
             {
                 return await Task.FromResult(inventories);
             }
-            return inventories.Where(x => x.InventoryName.Contains(x.InventoryName, StringComparison.OrdinalIgnoreCase));
+
+            return await Task.FromResult(inventories.Where(x => x.InventoryName.Contains(name, StringComparison.OrdinalIgnoreCase)));
         }
 
-		public Task UpdateInventoryAsync(Inventory inventory)
+        public Task UpdateInventoryAsync(Inventory inventory)
 		{
             if (inventories.Any(x => x.InventoryId != inventory.InventoryId && 
                 x.InventoryName.Equals(inventory.InventoryName, StringComparison.OrdinalIgnoreCase)))

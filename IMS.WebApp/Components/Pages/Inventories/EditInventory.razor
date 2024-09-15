@@ -43,7 +43,7 @@
 	public int InvId { get; set; }
 
 	[SupplyParameterFromForm]
-	private Inventory? inventory { get; set; } = new Inventory();
+	private Inventory? inventory { get; set; }
 
 	protected override async Task OnParametersSetAsync()
 	{
