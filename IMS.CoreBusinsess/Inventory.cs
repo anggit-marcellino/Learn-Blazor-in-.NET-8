@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace IMS.CoreBusinsess
 {
@@ -10,10 +6,14 @@ namespace IMS.CoreBusinsess
     {
         public int InventoryId { get; set; }
 
+        [Required]
+        [StringLength(100)]
         public string InventoryName { get; set; } = string.Empty;
 
-        public int Quantity { get; set; }
+		[Range(0, int.MaxValue, ErrorMessage = "Quantity must be greator or equal to 0.")]
+		public int Quantity { get; set; }
 
-        public double Price { get; set; }
+		[Range(0, int.MaxValue, ErrorMessage = "Price must be greator or equal to 0.")]
+		public double Price { get; set; }
     }
 }
