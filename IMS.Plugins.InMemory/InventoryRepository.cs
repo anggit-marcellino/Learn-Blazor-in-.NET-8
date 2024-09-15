@@ -31,6 +31,11 @@ namespace IMS.Plugins.InMemory
             return Task.CompletedTask;
 		}
 
+		public async Task<Inventory> GetInventoryByIdAsync(int inventoryId)
+		{
+            return await Task.FromResult(inventories.First(x => x.InventoryId == inventoryId));
+		}
+
 		public async Task<IEnumerable<Inventory>> GetInventoryByNameAsync(string name)
         {
             if (string.IsNullOrWhiteSpace(name))
