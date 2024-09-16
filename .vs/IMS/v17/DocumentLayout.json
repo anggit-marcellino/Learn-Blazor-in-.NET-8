@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Bahan\\Tricor Unify API\\IMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9B87652-9527-4610-B27A-ED835E55DE9B}|IMS.WebApp\\IMS.WebApp.csproj|d:\\bahan\\tricor unify api\\ims\\ims.webapp\\components\\controls\\inventorylistitemcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F9B87652-9527-4610-B27A-ED835E55DE9B}|IMS.WebApp\\IMS.WebApp.csproj|solutionrelative:ims.webapp\\components\\controls\\inventorylistitemcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7C34BF75-27B7-47B8-BF2F-E5BF08C779B9}|IMS.UseCase\\IMS.UseCase.csproj|d:\\bahan\\tricor unify api\\ims\\ims.usecase\\plugininterface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C34BF75-27B7-47B8-BF2F-E5BF08C779B9}|IMS.UseCase\\IMS.UseCase.csproj|solutionrelative:ims.usecase\\plugininterface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9B87652-9527-4610-B27A-ED835E55DE9B}|IMS.WebApp\\IMS.WebApp.csproj|d:\\bahan\\tricor unify api\\ims\\ims.webapp\\components\\controls\\searchcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F9B87652-9527-4610-B27A-ED835E55DE9B}|IMS.WebApp\\IMS.WebApp.csproj|solutionrelative:ims.webapp\\components\\controls\\searchcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7C34BF75-27B7-47B8-BF2F-E5BF08C779B9}|IMS.UseCase\\IMS.UseCase.csproj|d:\\bahan\\tricor unify api\\ims\\ims.usecase\\plugininterface\\iinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C34BF75-27B7-47B8-BF2F-E5BF08C779B9}|IMS.UseCase\\IMS.UseCase.csproj|solutionrelative:ims.usecase\\plugininterface\\iinventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9B87652-9527-4610-B27A-ED835E55DE9B}|IMS.WebApp\\IMS.WebApp.csproj|d:\\bahan\\tricor unify api\\ims\\ims.webapp\\components\\pages\\inventories\\inventorylist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F9B87652-9527-4610-B27A-ED835E55DE9B}|IMS.WebApp\\IMS.WebApp.csproj|solutionrelative:ims.webapp\\components\\pages\\inventories\\inventorylist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7C34BF75-27B7-47B8-BF2F-E5BF08C779B9}|IMS.UseCase\\IMS.UseCase.csproj|d:\\bahan\\tricor unify api\\ims\\ims.usecase\\products\\viewproductsbynameusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C34BF75-27B7-47B8-BF2F-E5BF08C779B9}|IMS.UseCase\\IMS.UseCase.csproj|solutionrelative:ims.usecase\\products\\viewproductsbynameusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B61EF1B2-CACA-4C2D-A49C-A267A989C4F5}|IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj|d:\\bahan\\tricor unify api\\ims\\ims.plugins.inmemory\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B61EF1B2-CACA-4C2D-A49C-A267A989C4F5}|IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj|solutionrelative:ims.plugins.inmemory\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B61EF1B2-CACA-4C2D-A49C-A267A989C4F5}|IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj|d:\\bahan\\tricor unify api\\ims\\ims.plugins.inmemory\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B61EF1B2-CACA-4C2D-A49C-A267A989C4F5}|IMS.Plugins.InMemory\\IMS.Plugins.InMemory.csproj|solutionrelative:ims.plugins.inmemory\\inventoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,40 +43,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InventoryListItemComponent.razor",
-              "DocumentMoniker": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.WebApp\\Components\\Controls\\InventoryListItemComponent.razor",
-              "RelativeDocumentMoniker": "IMS.WebApp\\Components\\Controls\\InventoryListItemComponent.razor",
-              "ToolTip": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.WebApp\\Components\\Controls\\InventoryListItemComponent.razor",
-              "RelativeToolTip": "IMS.WebApp\\Components\\Controls\\InventoryListItemComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-16T18:07:14.133Z",
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.UseCase\\PluginInterface\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "IMS.UseCase\\PluginInterface\\IProductRepository.cs",
+              "ToolTip": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.UseCase\\PluginInterface\\IProductRepository.cs",
+              "RelativeToolTip": "IMS.UseCase\\PluginInterface\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T19:05:11.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SearchComponent.razor",
-              "DocumentMoniker": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.WebApp\\Components\\Controls\\SearchComponent.razor",
-              "RelativeDocumentMoniker": "IMS.WebApp\\Components\\Controls\\SearchComponent.razor",
-              "ToolTip": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.WebApp\\Components\\Controls\\SearchComponent.razor",
-              "RelativeToolTip": "IMS.WebApp\\Components\\Controls\\SearchComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-16T18:02:43.036Z",
+              "Title": "IInventoryRepository.cs",
+              "DocumentMoniker": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.UseCase\\PluginInterface\\IInventoryRepository.cs",
+              "RelativeDocumentMoniker": "IMS.UseCase\\PluginInterface\\IInventoryRepository.cs",
+              "ToolTip": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.UseCase\\PluginInterface\\IInventoryRepository.cs",
+              "RelativeToolTip": "IMS.UseCase\\PluginInterface\\IInventoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T19:05:04.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InventoryRepository.cs",
+              "DocumentMoniker": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.Plugins.InMemory\\InventoryRepository.cs",
+              "RelativeDocumentMoniker": "IMS.Plugins.InMemory\\InventoryRepository.cs",
+              "ToolTip": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.Plugins.InMemory\\InventoryRepository.cs",
+              "RelativeToolTip": "IMS.Plugins.InMemory\\InventoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T18:52:20.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.Plugins.InMemory\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "IMS.Plugins.InMemory\\ProductRepository.cs",
+              "ToolTip": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.Plugins.InMemory\\ProductRepository.cs",
+              "RelativeToolTip": "IMS.Plugins.InMemory\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T18:49:15.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "InventoryList.razor",
-              "DocumentMoniker": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.WebApp\\Components\\Pages\\Inventories\\InventoryList.razor",
-              "RelativeDocumentMoniker": "IMS.WebApp\\Components\\Pages\\Inventories\\InventoryList.razor",
-              "ToolTip": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.WebApp\\Components\\Pages\\Inventories\\InventoryList.razor",
-              "RelativeToolTip": "IMS.WebApp\\Components\\Pages\\Inventories\\InventoryList.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-16T17:29:13.899Z",
+              "Title": "ViewProductsByNameUseCase.cs",
+              "DocumentMoniker": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.UseCase\\Products\\ViewProductsByNameUseCase.cs",
+              "RelativeDocumentMoniker": "IMS.UseCase\\Products\\ViewProductsByNameUseCase.cs",
+              "ToolTip": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.UseCase\\Products\\ViewProductsByNameUseCase.cs",
+              "RelativeToolTip": "IMS.UseCase\\Products\\ViewProductsByNameUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T18:41:06.133Z",
               "EditorCaption": ""
             }
           ]
