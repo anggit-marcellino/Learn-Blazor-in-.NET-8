@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Bahan\\Tricor Unify API\\IMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F9B87652-9527-4610-B27A-ED835E55DE9B}|IMS.WebApp\\IMS.WebApp.csproj|d:\\bahan\\tricor unify api\\ims\\ims.webapp\\components\\controls\\inventorylistitemcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9B87652-9527-4610-B27A-ED835E55DE9B}|IMS.WebApp\\IMS.WebApp.csproj|solutionrelative:ims.webapp\\components\\controls\\inventorylistitemcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9B87652-9527-4610-B27A-ED835E55DE9B}|IMS.WebApp\\IMS.WebApp.csproj|d:\\bahan\\tricor unify api\\ims\\ims.webapp\\components\\controls\\searchcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F9B87652-9527-4610-B27A-ED835E55DE9B}|IMS.WebApp\\IMS.WebApp.csproj|solutionrelative:ims.webapp\\components\\controls\\searchcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F9B87652-9527-4610-B27A-ED835E55DE9B}|IMS.WebApp\\IMS.WebApp.csproj|d:\\bahan\\tricor unify api\\ims\\ims.webapp\\components\\pages\\inventories\\inventorylist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F9B87652-9527-4610-B27A-ED835E55DE9B}|IMS.WebApp\\IMS.WebApp.csproj|solutionrelative:ims.webapp\\components\\pages\\inventories\\inventorylist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -27,14 +35,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "InventoryListItemComponent.razor",
+              "DocumentMoniker": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.WebApp\\Components\\Controls\\InventoryListItemComponent.razor",
+              "RelativeDocumentMoniker": "IMS.WebApp\\Components\\Controls\\InventoryListItemComponent.razor",
+              "ToolTip": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.WebApp\\Components\\Controls\\InventoryListItemComponent.razor",
+              "RelativeToolTip": "IMS.WebApp\\Components\\Controls\\InventoryListItemComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T18:07:14.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SearchComponent.razor",
+              "DocumentMoniker": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.WebApp\\Components\\Controls\\SearchComponent.razor",
+              "RelativeDocumentMoniker": "IMS.WebApp\\Components\\Controls\\SearchComponent.razor",
+              "ToolTip": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.WebApp\\Components\\Controls\\SearchComponent.razor",
+              "RelativeToolTip": "IMS.WebApp\\Components\\Controls\\SearchComponent.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T18:02:43.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "InventoryList.razor",
               "DocumentMoniker": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.WebApp\\Components\\Pages\\Inventories\\InventoryList.razor",
               "RelativeDocumentMoniker": "IMS.WebApp\\Components\\Pages\\Inventories\\InventoryList.razor",
               "ToolTip": "D:\\Bahan\\Tricor Unify API\\IMS\\IMS.WebApp\\Components\\Pages\\Inventories\\InventoryList.razor",
               "RelativeToolTip": "IMS.WebApp\\Components\\Pages\\Inventories\\InventoryList.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-15T20:34:04.701Z",
+              "WhenOpened": "2024-09-16T17:29:13.899Z",
               "EditorCaption": ""
             }
           ]

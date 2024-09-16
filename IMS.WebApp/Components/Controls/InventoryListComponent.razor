@@ -1,5 +1,4 @@
-﻿
-@inject IViewInventoriesByNameUseCase ViewInventoriesByNameUseCase
+﻿@inject IViewInventoriesByNameUseCase ViewInventoriesByNameUseCase
 
 <table class="table">
 	<thead>
@@ -8,6 +7,7 @@
 			<th>Quantity</th>
 			<th>Price</th>
 			<th></th>
+			<th style="text-align:left"></th>
 		</tr>
 	</thead>
 	<tbody>
@@ -25,10 +25,15 @@
 	private List<Inventory>? inventories;
 
 	[Parameter]
-	public string? SearchInventoryFilter { get; set; }
+	public string? searchInventoryFilter { get; set; }
 
 	protected override async Task OnInitializedAsync()
 	{
-		inventories = (await ViewInventoriesByNameUseCase.ExecuteAsync(SearchInventoryFilter ?? string.Empty)).ToList();
+		inventories = (await ViewInventoriesByNameUseCase.ExecuteAsync(searchInventoryFilter ?? string.Empty)).ToList();
+	}
+
+	protected override async Task OnParametersSetAsync()
+	{
+		inventories = (await ViewInventoriesByNameUseCase.ExecuteAsync(searchInventoryFilter ?? string.Empty)).ToList();
 	}
 }
