@@ -1,0 +1,21 @@
+﻿@page "/products"
+
+<h3>Product List</h3>
+<br />
+<br />
+
+<IMS.WebApp.Components.Controls.SearchComponent OnSearch="HandleSearch"></IMS.WebApp.Components.Controls.SearchComponent>
+<br />
+<IMS.WebApp.Components.Controls.ProductListComponent searchProductFilter="@productNameSearch"></IMS.WebApp.Components.Controls.ProductListComponent>
+<br />
+<a href="/addproduct" class="btn btn-primary">Add Product</a>
+
+
+@code {
+	private string? productNameSearch;
+
+	private void HandleSearch(string searchFilter)
+	{
+		productNameSearch = searchFilter;
+	}
+}
