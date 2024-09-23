@@ -6,9 +6,8 @@
 	<tr>
 		<td>@Product.ProductName</td>
 		<td>@Product.Quantity</td>
-		<td>@Product.Price.ToString("c")</td>
 		<td>
-			<a class="btn btn-light" href="/editinventory/@Product.ProductId">
+			<a class="btn btn-light" href="/editproduct/@Product.ProductId">
 				Edit
 			</a>
 		</td>
@@ -27,18 +26,5 @@
 		await DeleteProductUseCase.ExecuteAsync(productId);
 		this.Product = null;
 	}
-
-	// private async Task DeleteInventory(int inventoryId)
-	// {
-	// 	await DeleteInventoryUseCase.ExecuteAsync(inventoryId);
-	// 	NavigationManager.Refresh();
-	// }
-
-	// <td>
-	// 	<EditForm Enhance="true" Model="Inventory" FormName="@($"form-delete-inventory-{Product.ProductId}")"
-	// 			  OnValidSubmit="() => DeleteInventory(Product.ProductId)">
-	// 		<button type="submit" class="btn btn-light">Delete</button>
-	// 	</EditForm>
-	// </td>
 }
 
