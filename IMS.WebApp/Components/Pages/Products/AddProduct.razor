@@ -1,11 +1,12 @@
 ﻿@page "/addproduct"
+@rendermode InteractiveServer
 
 @inject IAddProductUseCase AddProductUseCase
 @inject NavigationManager NavigationManager
 
 <h3>AddProduct</h3>
 
-<EditForm Model="product" FormName="formInventory" OnValidSubmit="Save">
+<EditForm Model="product" OnValidSubmit="Save">
 
 	<DataAnnotationsValidator></DataAnnotationsValidator>
 	<ValidationSummary></ValidationSummary>
@@ -19,6 +20,17 @@
 		<label for="quantity">Quantity</label>
 		<InputNumber id="quantity" @bind-Value="product.Quantity" class="form-control"></InputNumber>
 		<ValidationMessage For="()=> product.Quantity"></ValidationMessage>
+	</div>
+
+	<div class="form-group">
+		<label for="price">Price</label>
+		<InputNumber id="price" @bind-Value="product.Price" class="form-control"></InputNumber>
+		<ValidationMessage For="()=> product.Price"></ValidationMessage>
+	</div>
+
+	<div class="form-group">
+		<label for="invData">Inventory</label>
+		<IMS.WebApp.Components.Controls.SearchProductInventoriesComponent></IMS.WebApp.Components.Controls.SearchProductInventoriesComponent>
 	</div>
 
 	<br />
